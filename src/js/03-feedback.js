@@ -19,9 +19,8 @@ feedbackForm.addEventListener(
 );
 
 document.addEventListener('DOMContentLoaded', () => {
-  const feedbackState = JSON.parse(
-    localStorage.getItem(LOCALSTORAGE_KEY) || {}
-  );
+  const feedbackState =
+    JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY)) || {};
 
   if (feedbackState.email) {
     emailInput.value = feedbackState.email;
