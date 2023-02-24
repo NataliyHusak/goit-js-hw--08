@@ -2,8 +2,9 @@
 import { galleryItems } from './gallery-items';
 // Change code below this line
 
-import SimpleLightbox from 'simplelightbox';
+// import SimpleLightbox from 'simplelightbox';
 
+import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.esm';
 
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
